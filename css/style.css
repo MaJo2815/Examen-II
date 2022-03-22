@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+	color: #898989;
+}
+
+header{
+	background-color: #fff;
+}
+
+#hero {
+	background-image: url("../img/Services-Title-Image.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px 10px;
+}
+
+#hero h1 {
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+}
+
+#icons {
+	background-color: #fff;
+	padding: 50px 25px;
+	text-align: center;
+	 
+}
+
+#icons h5, #info h5{
+	color: var(--color-negro);
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+#icons .la-envelope-open-text, .la-mobile, .la-cloud-download-alt {
+	color:  #e0e0e0;
+	font-size: 150px;
+	text-align: center;
+}
+
+#icons .la-check {
+	font-size: 50px;
+	font-weight: bolder;
+	color: #53c3c9;
+}
+
+#info {
+	background-color: #f7f7f7;
+	padding: 50px 25px;
+	text-align: center;
+}
+
+#info h2 {
+	color: var(--color-negro);
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+
+#features .btn-light, .btn-dark {
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	border-radius: 25px;
+	font-size: 12px;
+}
+
+#features .izquierda {
+	background-color: #3d4248;
+	background-size: cover;
+	padding: 60px 25px;
+	color: #fff;
+	
+}
+
+#features .centro {
+	background-color:  #d8d8d8;
+	background-size: cover;
+	padding: 60px 25px;
+	color: #fff;
+}	
+
+#features .derecha {
+	background-color:  #f0f0f0;
+	background-size: cover;
+	padding: 60px 25px;
+	color: var(--color-negro);
+}
+
+#features h3 {
+	font-weight: 600; 
+}
+
+footer {
+	background-color: var(--fondo-footer);
+	color: #bbb;
+	text-align: left;
+	font-size: 13px;
+	padding: 50px 10px;
+}
+
+footer h2, footer h5 {
+	font-weight: 800;
+	color: #fff;
+}
+
+footer a{
+	color: #fff;
+	font-size: 10px;
+	margin: 5px 5px;
+	background-color: #525252;
+	padding: 3px 6px;
+	border-radius: 100%;
+}
